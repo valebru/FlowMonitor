@@ -1,0 +1,11 @@
+sudo apt-get install mysql-client mysql-server libmysqlclient-dev
+
+
+#password 37cnit73
+sudo mysql -u root -p
+
+##in mysql
+CREATE USER 'demo'@'localhost' IDENTIFIED BY '37cnit73';
+GRANT ALL PRIVILEGES ON * . * TO 'demo'@'localhost' IDENTIFIED BY '37cnit73' WITH GRANT OPTION;
+GRANT ALL PRIVILEGES ON * . * TO 'demo'@'*' IDENTIFIED BY '37cnit73' WITH GRANT OPTION;
+FLUSH PRIVILEGES;
