@@ -13,3 +13,10 @@ flask run --host=0.0.0.0 --port 4000
 
 ## in /etc/hosts
 127.0.0.1   flow-monitor
+127.0.0.1   flow-monitor-dashboard
+
+
+
+#### put in /etc/hosts of the laptop in which contact the dashboard
+<ip-server in which is running the backend>     flow-monitor
+<ip-server in which is running the dashboard>   flow-monitor-dashboard
