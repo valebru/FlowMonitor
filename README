@@ -1,0 +1,8 @@
+
+In monitor: there is sip_topMysql that will measure flow traffic and save on a mysql DB
+  
+In web_server_backend: there is the backend website that return the entries saved in mysql DB under specific query
+  
+In web_server_dashboard: there is the webserver apache in which run the dashboard and visualize data
+
+In src-dashboard: there is the angular project related to the dashboard - you can modify files if there needs changes on the website (Gulp will create in dist the file to use in web_server_dashboard)  
